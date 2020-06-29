@@ -48,6 +48,10 @@ p {
     align-items: center;
 }
 
+.banner-text-anim-time {
+    animation-delay: 0.5s;
+}
+
 .join-ip {
     font-size: 1.3em;
     font-weight: 400;
@@ -70,6 +74,18 @@ p {
     height: 14px;
     background-color: white;
     transform: translateX(-50%);
+    animation-name: expand;
+    animation-duration: 0.5s;
+}
+
+@keyframes expand {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 72px;
+    }
 }
 
 ul.navbar-nav {
