@@ -52,6 +52,12 @@ p {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: color 1s, font-size 0.25s;
+}
+
+.banner-ip:hover {
+    color: rgb(55, 99, 243);
+    font-size: 1.1em;
 }
 
 .banner-text-anim-time {
@@ -130,7 +136,7 @@ ul.navbar-nav {
 }
 
 .bg {
-    background-image: url("../images/banner-blur.png");
+    background-image: url("../images/banner-blur.jpg");
     background-repeat: no-repeat;
     background-position: 50% 20%;
     background-size: cover;
