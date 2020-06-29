@@ -10,7 +10,6 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -27,81 +26,86 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">MineBushido</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-            </ul>
+    <main>
+        <div class="jumbotron jumbotron-fluid bg">
+            <div class="container banner-container">
+                <div class="banner-content-left">
+                    <h1>Welcome to <span class="font-weight-bold">MineBushido</span>!</h1>
+                    <div class="random-white-rectangle"></div>
+                    <div class="banner-content">
+                        <p>We are a community dedicated to hosting a Minecraft survival server where it is open for
+                            all to join and have fun!</p>
+                        <p>Our server is currently running on <span class="font-weight-bold">1.15.2</span>!</p>
+                    </div>
+                </div>
+                <div class="banner-content-right">
+                    <p class="join-us">JOIN US AT</p>
+                    <div id="copy-js" class="banner-ip">
+                        <p class="join-ip">minebushido.com</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">MineBushido</h1>
-            <p class="lead">Join the server
-            </p>
-            <img src="images/IMG_20200620_210807_003.jpg" width="300" height="169">
+        <div class="container section-2">
+            <div class="center-card">
+                <img class="section-2-logo" src="./images/logo_x1.png" alt="MineBushido Logo">
+                <div class="section-2-text">
+                    <p class="section-2-connect">CONNECT WITH</p>
+                    <p class="section-2-url">minebushido.com</p>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="content content-left col-9">
-                <div class="card">
-                    <h5 class="card-header">First Post</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">First Post</h5>
-                        <p class="card-text">First Post</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Read more...
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">First Post</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
+        <div class="container-fluid section-3">
+            <div class="row section-3-row">
+                <div class="section-3-content">
+                    <div class="content content-left col-9">
+                        <div class="card">
+                            <h5 class="card-header">First Post</h5>
+                            <div class="card-body">
+                                <h5 class="card-title">First Post</h5>
+                                <p class="card-text">First Post</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Read more...
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">First Post</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="content content-right col-3">
-                <div class="card">
-                    <h5 class="card-header">Join Our Discord</h5>
-                    <div class="card-body">
+                    <div class="content content-right col-3">
+                        <div class="card">
+                            <h5 class="card-header">Join Our Discord</h5>
+                            <div class="card-body">
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-    </div>
-
+    </main>
 </body>
 
 </html>
