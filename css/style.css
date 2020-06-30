@@ -87,11 +87,11 @@ h5 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: color 1s, font-size 0.25s;
+    transition: color 0.3s, font-size 0.25s;
 }
 
 .banner-ip:hover {
-    color: rgb(55, 99, 243);
+    color: rgb(60, 145, 255);
     font-size: 1.1em;
 }
 
