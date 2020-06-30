@@ -72,43 +72,7 @@
         <div class="container-fluid section-3">
             <div class="row section-3-row">
                 <div class="section-3-content">
-                    <div class="content content-left col-9">
-                        <div class="card">
-                            <h5 class="card-header">Welcome to MineBushido!</h5>
-                            <div class="card-body">
-                                <p class="subtitle-date">Posted on: </p>
-                                <p class="card-text">First Post</p>
-                                <div class="modal-btn-container">
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary read-more-btn" data-toggle="modal"
-                                        data-target="#exampleModal">
-                                        READ MORE
-                                    </button>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">First Post</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="content content-left col-9" id="blog-posts">
                     </div>
                     <div class="content content-right col-3">
                         <div class="card">
@@ -122,6 +86,13 @@
             </div>
         </div>
     </main>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="./js/blog-posts.js"></script>
 </body>
 
 </html>
